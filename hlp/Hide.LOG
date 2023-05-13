@@ -1,0 +1,73 @@
+Microsoft (R) Help Compiler
+HCRTF 4.03.0002
+Copyright (c) Microsoft Corp 1990 - 1995. All rights reserved.
+hide.hpj
+    HC3048: Warning: topic #2 of C:\Vcc\Hide\4.0\hlp\.\afxcore.rtf : 
+	Nonscrolling region defined after scrolling region.
+    HC3111: Warning: topic #3 of C:\Vcc\Hide\4.0\hlp\.\afxcore.rtf : 
+	This topic contains keywords but no title.
+    HC1017: Note: topic #3 of C:\Vcc\Hide\4.0\hlp\.\afxcore.rtf : 
+	A nonscrolling region crosses a page break.
+    HC3048: Warning: topic #3 of C:\Vcc\Hide\4.0\hlp\.\afxcore.rtf : 
+	Nonscrolling region defined after scrolling region.
+    HC3111: Warning: topic #4 of C:\Vcc\Hide\4.0\hlp\.\afxcore.rtf : 
+	This topic contains keywords but no title.
+    HC3111: Warning: topic #5 of C:\Vcc\Hide\4.0\hlp\.\afxcore.rtf : 
+	This topic contains keywords but no title.
+    HC3111: Warning: topic #6 of C:\Vcc\Hide\4.0\hlp\.\afxcore.rtf : 
+	This topic contains keywords but no title.
+    HC3111: Warning: topic #7 of C:\Vcc\Hide\4.0\hlp\.\afxcore.rtf : 
+	This topic contains keywords but no title.
+    HC3111: Warning: topic #8 of C:\Vcc\Hide\4.0\hlp\.\afxcore.rtf : 
+	This topic contains keywords but no title.
+    HC3111: Warning: topic #9 of C:\Vcc\Hide\4.0\hlp\.\afxcore.rtf : 
+	This topic contains keywords but no title.
+    HC3111: Warning: topic #10 of C:\Vcc\Hide\4.0\hlp\.\afxcore.rtf : 
+	This topic contains keywords but no title.
+    HC3111: Warning: topic #11 of C:\Vcc\Hide\4.0\hlp\.\afxcore.rtf : 
+	This topic contains keywords but no title.
+    HC3111: Warning: topic #12 of C:\Vcc\Hide\4.0\hlp\.\afxcore.rtf : 
+	This topic contains keywords but no title.
+    HC3111: Warning: topic #13 of C:\Vcc\Hide\4.0\hlp\.\afxcore.rtf : 
+	This topic contains keywords but no title.
+    HC3111: Warning: topic #14 of C:\Vcc\Hide\4.0\hlp\.\afxcore.rtf : 
+	This topic contains keywords but no title.
+    HC3111: Warning: topic #15 of C:\Vcc\Hide\4.0\hlp\.\afxcore.rtf : 
+	This topic contains keywords but no title.
+    HC3111: Warning: topic #16 of C:\Vcc\Hide\4.0\hlp\.\afxcore.rtf : 
+	This topic contains keywords but no title.
+    HC3111: Warning: topic #17 of C:\Vcc\Hide\4.0\hlp\.\afxcore.rtf : 
+	This topic contains keywords but no title.
+    HC3111: Warning: topic #18 of C:\Vcc\Hide\4.0\hlp\.\afxcore.rtf : 
+	This topic contains keywords but no title.
+    HC3111: Warning: topic #19 of C:\Vcc\Hide\4.0\hlp\.\afxcore.rtf : 
+	This topic contains keywords but no title.
+    HC3111: Warning: topic #20 of C:\Vcc\Hide\4.0\hlp\.\afxcore.rtf : 
+	This topic contains keywords but no title.
+    HC3111: Warning: topic #21 of C:\Vcc\Hide\4.0\hlp\.\afxcore.rtf : 
+	This topic contains keywords but no title.
+    HC3111: Warning: topic #22 of C:\Vcc\Hide\4.0\hlp\.\afxcore.rtf : 
+	This topic contains keywords but no title.
+    HC3111: Warning: topic #23 of C:\Vcc\Hide\4.0\hlp\.\afxcore.rtf : 
+	This topic contains keywords but no title.
+    HC1010: Note: 
+	The following mapped Topic IDs were not used in any topic:
+	HIDR_HIDETYPE
+	HIDD_PASSWORDDIALOG
+	HIDM_HIDEALL
+	HIDM_POPUPMENUICON
+	HIDM_SHOWALL
+	HIDD_SPLASHWINDOW
+	HIDM_WNDMENU
+	HIDM_APP_MENU
+	HIDR_MAINFRAME
+33	Topics
+12	Jumps
+23	Keywords
+0	Bitmaps
+
+
+Created C:\Vcc\Hide\4.0\hlp\Hide.HLP, 18,579 bytes
+Hall+Zeck compression decreased help file by 8,273 bytes.
+Compile time: 0 minutes, 0 seconds
+2 notes, 23 warnings

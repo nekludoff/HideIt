@@ -1,0 +1,41 @@
+ 
+// Commands (ID_* and IDM_*) 
+HIDM_ABOUTBOX                           0x10010
+HIDM_POPUPMENUICON                      0x10081
+HIDM_APP_MENU                           0x10082
+HIDM_WNDMENU                            0x10099
+HIDM_EXIT                               0x18003
+HIDM_WNDSETTINGS                        0x18004
+HIDM_HIDEWND                            0x18006
+HIDM_CUSTOMWNDSETTINGS                  0x18008
+HIDM_SETTINGS                           0x18009
+HIDM_SHOWALL                            0x1800A
+HIDM_HIDEALL                            0x1800B
+HIDM_WNDSETTINGSPOPUP                   0x1800C
+HIDM_SETTINGSPOPUP                      0x1800D
+ 
+// Prompts (IDP_*) 
+ 
+// Resources (IDR_*) 
+HIDR_MAINFRAME                          0x20080
+HIDR_HIDETYPE                           0x20081
+ 
+// Dialogs (IDD_*) 
+HIDD_ABOUTBOX                           0x20064
+HIDD_TRIAL_DIALOG                       0x20066
+HIDD_PPAGECOMMON                        0x20067
+HIDD_PPAGEPERFOMANCE                    0x20068
+HIDD_PPAGEAPPMENU                       0x20069
+HIDD_SPLASHWINDOW                       0x2006A
+HIDD_REG_DIALOG                         0x2008E
+HIDD_PPAGEHIDE                          0x2008F
+HIDD_PPAGEHOTKEYS                       0x20090
+HIDD_PPAGEPASSWORDS                     0x20091
+HIDD_PASSWORDDIALOG                     0x20092
+HIDD_WNDPARMLIST                        0x20093
+HIDD_PPAGEWNDMAIN                       0x20095
+HIDD_WNDPPAGEHIDE                       0x20096
+HIDD_WNDPPAGEPASSWORDS                  0x20097
+HIDD_WNDPPAGEPERFOMANCE                 0x20098
+ 
+// Frame Controls (IDW_*) 
