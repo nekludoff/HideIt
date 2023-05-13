@@ -1,0 +1,8 @@
+LIBRARY   WHOOK
+
+HEAPSIZE  1024
+
+EXPORTS
+	WEP 			@1
+	InitHooksDll		@2
+	InstallHooks		@3
