@@ -1,0 +1,30 @@
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Hide", "Hide.vcproj", "{55AE96BF-0BB5-431D-A505-67162358B3DD}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WHook", "WHook\WHook.vcproj", "{7CDFAFE2-063F-4952-98BD-C716E41CF4C3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug+Release Hook|Win32 = Debug+Release Hook|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{55AE96BF-0BB5-431D-A505-67162358B3DD}.Debug|Win32.ActiveCfg = Debug|Win32
+		{55AE96BF-0BB5-431D-A505-67162358B3DD}.Debug|Win32.Build.0 = Debug|Win32
+		{55AE96BF-0BB5-431D-A505-67162358B3DD}.Debug+Release Hook|Win32.ActiveCfg = Debug|Win32
+		{55AE96BF-0BB5-431D-A505-67162358B3DD}.Debug+Release Hook|Win32.Build.0 = Debug|Win32
+		{55AE96BF-0BB5-431D-A505-67162358B3DD}.Release|Win32.ActiveCfg = Release|Win32
+		{55AE96BF-0BB5-431D-A505-67162358B3DD}.Release|Win32.Build.0 = Release|Win32
+		{7CDFAFE2-063F-4952-98BD-C716E41CF4C3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7CDFAFE2-063F-4952-98BD-C716E41CF4C3}.Debug|Win32.Build.0 = Debug|Win32
+		{7CDFAFE2-063F-4952-98BD-C716E41CF4C3}.Debug+Release Hook|Win32.ActiveCfg = Release|Win32
+		{7CDFAFE2-063F-4952-98BD-C716E41CF4C3}.Debug+Release Hook|Win32.Build.0 = Release|Win32
+		{7CDFAFE2-063F-4952-98BD-C716E41CF4C3}.Release|Win32.ActiveCfg = Release|Win32
+		{7CDFAFE2-063F-4952-98BD-C716E41CF4C3}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

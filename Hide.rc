@@ -1,0 +1,898 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+// Generated Help ID header file
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "resource.hm"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Russian resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+#ifdef _WIN32
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\Hide.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\idr_main.ico"
+#endif    // Russian resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_TRAYEMPTY           ICON    DISCARDABLE     "res\\trayicon.ico"
+IDI_CHECK_SMALL         ICON    DISCARDABLE     "res\\Checkmrks.ico"
+IDI_CHECK_LARGE         ICON    DISCARDABLE     "res\\Checkmrk.ico"
+IDI_SHOWALL             ICON    DISCARDABLE     "res\\Lighton.ico"
+IDI_HIDEALL             ICON    DISCARDABLE     "res\\Lightoff.ico"
+IDI_HIDEALL_SMALL       ICON    DISCARDABLE     "res\\hideall_.ico"
+IDI_SHOWALL_SMALL       ICON    DISCARDABLE     "res\\showall_.ico"
+IDI_TRAYFULL            ICON    DISCARDABLE     "res\\trayfull.ico"
+IDI_EMPTY               ICON    DISCARDABLE     "res\\empty.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&Edit"
+    BEGIN
+        MENUITEM "&Undo\tCtrl+Z",               ID_EDIT_UNDO
+        MENUITEM SEPARATOR
+        MENUITEM "Cu&t\tCtrl+X",                ID_EDIT_CUT
+        MENUITEM "&Copy\tCtrl+C",               ID_EDIT_COPY
+        MENUITEM "&Paste\tCtrl+V",              ID_EDIT_PASTE
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&Help Topics",                ID_HELP_FINDER
+        MENUITEM SEPARATOR
+        MENUITEM "&About Hide...",              ID_APP_ABOUT
+    END
+END
+
+IDM_POPUPMENUICON MENU DISCARDABLE 
+BEGIN
+    POPUP "Main"
+    BEGIN
+        MENUITEM "&About...",                   IDM_ABOUTBOX, HELP
+        MENUITEM SEPARATOR
+        MENUITEM "&Hide It! program settings...", IDM_SETTINGS, HELP
+        MENUITEM SEPARATOR
+        MENUITEM "&Windows...",                 IDM_WNDSETTINGS
+        MENUITEM SEPARATOR
+        MENUITEM "&Exit",                       IDM_EXIT, HELP
+    END
+END
+
+IDM_APP_MENU MENU DISCARDABLE 
+BEGIN
+    POPUP "Main"
+    BEGIN
+        MENUITEM "&Show all ",                  IDM_SHOWALL
+        MENUITEM "&Hide all",                   IDM_HIDEALL
+    END
+END
+
+IDM_WNDMENU MENU DISCARDABLE 
+BEGIN
+    POPUP "Main"
+    BEGIN
+        MENUITEM "&Hide It! program settings...", IDM_SETTINGSPOPUP, HELP
+        MENUITEM SEPARATOR
+        MENUITEM "Windows...",                  IDM_WNDSETTINGSPOPUP
+        MENUITEM SEPARATOR
+        MENUITEM "Customize settings...",       IDM_CUSTOMWNDSETTINGS
+        MENUITEM SEPARATOR
+        MENUITEM "&Hide window",                IDM_HIDEWND, HELP
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS PRELOAD MOVEABLE PURE 
+BEGIN
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL, NOINVERT
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT, NOINVERT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT, NOINVERT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY, NOINVERT
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT, NOINVERT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT, NOINVERT
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL, NOINVERT
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL, NOINVERT
+    VK_F1,          ID_CONTEXT_HELP,        VIRTKEY, SHIFT, NOINVERT
+    VK_F1,          ID_HELP,                VIRTKEY, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_SPLASHWINDOW DIALOG DISCARDABLE  0, 0, 162, 28
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_VISIBLE
+FONT 10, "MS Sans Serif"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_SPLASHICON,7,4,20,20
+    CTEXT           "Hide It!  4.0",IDC_SPLASHICON,47,4,59,8,SS_NOPREFIX
+    CTEXT           "Loading...",IDC_INFO,47,16,67,8,SS_NOTIFY
+END
+
+IDD_PPAGEPERFOMANCE DIALOGEX 0, 0, 265, 156
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Performance"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CONTROL         "Change process priority for hidden application",
+                    IDC_CHANGEPRIORITY,"Button",BS_AUTOCHECKBOX | WS_GROUP | 
+                    WS_TABSTOP,7,7,196,8,0,HIDC_CHANGEPRIORITY
+    GROUPBOX        "Set to: ",IDC_PRIORITYGROUP,7,21,245,42
+    CONTROL         "High priority",IDC_PROCESSPRIORITY,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP | WS_TABSTOP,21,32,53,10,0,
+                    HIDC_PROCESSPRIORITY
+    CONTROL         "Normal priority",IDC_PRIORITY_NORMAL,"Button",
+                    BS_AUTORADIOBUTTON | WS_TABSTOP,91,32,60,10,0,
+                    HIDC_PRIORITY_NORMAL
+    CONTROL         "Low priority",IDC_PRIORITY_LOW,"Button",
+                    BS_AUTORADIOBUTTON | WS_TABSTOP,168,32,51,10,0,
+                    HIDC_PRIORITY_LOW
+    CONTROL         "Don't use when window is application of the Program Manager ",
+                    IDC_CHANGEPRIORITYPM,"Button",BS_AUTOCHECKBOX | WS_GROUP | 
+                    WS_TABSTOP,21,49,210,8,0,HIDC_CHANGEPRIORITYPM
+    GROUPBOX        "Memory optimizer (only for NT based systems) ",
+                    IDC_MEMOPTGROUP,7,70,245,77
+    CONTROL         "Reduce process memory for hidden applications",
+                    IDC_REDUCEMEMORY,"Button",BS_AUTOCHECKBOX | WS_GROUP | 
+                    WS_TABSTOP,15,84,196,8,0,HIDC_REDUCEMEMORY
+    LTEXT           "Time interval between starts of optimization process: ",
+                    IDC_STATICOPT,15,98,166,8,NOT WS_GROUP
+    COMBOBOX        IDC_DELAYCOMBOHIDDEN,183,98,48,43,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_GROUP | WS_TABSTOP,0,
+                    HIDC_DELAYCOMBOHIDDEN
+    CONTROL         "Reduce process memory for all applications",
+                    IDC_REDUCEALLMEMORY,"Button",BS_AUTOCHECKBOX | WS_GROUP | 
+                    WS_TABSTOP,15,112,196,8,0,HIDC_REDUCEALLMEMORY
+    LTEXT           "Time interval between starts of optimization process: ",
+                    IDC_STATICOPTALL,15,126,166,8,NOT WS_GROUP
+    COMBOBOX        IDC_DELAYCOMBOHIDDENALL,183,127,48,45,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_GROUP | WS_TABSTOP,0,
+                    HIDC_DELAYCOMBOHIDDENALL
+END
+
+IDD_PPAGECOMMON DIALOGEX 0, 0, 257, 93
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Common"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CONTROL         "&Display splash screen when started up",
+                    IDC_SPLASHWINDOW,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,
+                    7,186,8,0,HIDC_SPLASHWINDOW
+    CONTROL         "&Extend System menu only in visible windows",
+                    IDC_PROCESSINVISIBLEWND,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,7,21,213,8,0,HIDC_PROCESSINVISIBLEWND
+    CONTROL         "&Add ""Hide It!"" command to system menu (requires restart) ",
+                    IDC_ADDHIDE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,35,
+                    223,8,0,HIDC_ADDHIDE
+    CONTROL         "&Add ""Hide all"" command to system menu (requires restart) ",
+                    IDC_ADDHIDEALL,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,
+                    49,223,8,0,HIDC_ADDHIDEALL
+    CONTROL         "Auto-start when &OS starts",IDC_AUTOSTART,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,7,63,203,8,0,HIDC_AUTOSTART
+    CONTROL         """Soft"" e&xit",IDC_SOFTEXIT,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,7,77,203,8,0,HIDC_SOFTEXIT
+END
+
+IDD_PPAGEAPPMENU DIALOGEX 0, 0, 257, 79
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Window menu "
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CONTROL         "Show small icons in Window menu",IDC_MENU_ICONTYPE,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,7,157,8,0,
+                    HIDC_MENU_ICONTYPE
+    CONTROL         "&Trim window caption to ",IDC_TRIMCAPTION,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,7,21,91,8,0,
+                    HIDC_TRIMCAPTION
+    EDITTEXT        IDC_TRIMCHARS,105,21,20,12,ES_MULTILINE | ES_WANTRETURN,
+                    0,HIDC_TRIMCHARS
+    LTEXT           "chars",IDC_STATIC,133,21,18,8
+    CONTROL         "Add ""&Show All"" command to Window menu",
+                    IDC_ADDSHOWALL,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,
+                    35,180,8,0,HIDC_ADDSHOWALL
+    CONTROL         "Add ""&Hide All"" command to Window menu",
+                    IDC_ADDHIDEALL,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,
+                    49,180,8,0,HIDC_ADDHIDEALL
+    CONTROL         "E&xtract icons from executable file if none is available",
+                    IDC_EXTRACTICONFROMEXE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,7,63,180,8,0,HIDC_EXTRACTICONFROMEXE
+END
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 242, 93
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About Hide It!"
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,13,10,20,20
+    CTEXT           "Hide It!  4.0",IDC_STATIC,39,10,119,8,SS_NOPREFIX
+    CTEXT           "Copyright (c) 2002-2003 AN",IDC_STATIC,39,22,136,8
+    GROUPBOX        "",IDC_STATIC,13,33,165,36
+    CTEXT           "Free version",IDC_REGINFO,18,41,154,8
+    CTEXT           "Client info",IDC_CLIENTINFO,17,54,154,8
+    PUSHBUTTON      "OK",IDOK,185,7,50,14,WS_GROUP
+    PUSHBUTTON      "Cancel",IDCANCEL,0,0,50,7,NOT WS_VISIBLE,0,HIDCANCEL
+    LTEXT           "Internet: www.kamtre.ru",IDC_INTERNET,7,74,76,8,
+                    SS_NOTIFY
+    LTEXT           "E-mail: support@kamtre.ru",IDC_EMAIL,151,74,84,8,
+                    SS_NOTIFY
+    PUSHBUTTON      "Register",IDC_REGISTER,185,28,50,14,NOT WS_VISIBLE | 
+                    WS_DISABLED,0,HIDC_REGISTER
+END
+
+IDD_REG_DIALOG DIALOG DISCARDABLE  0, 0, 187, 111
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION
+CAPTION "Registration"
+FONT 8, "Verdana"
+BEGIN
+    PUSHBUTTON      "OK",IDOK,7,90,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,66,90,50,14
+    PUSHBUTTON      "Paste",IDC_PASTE,130,90,50,14
+    EDITTEXT        IDC_REGNUM_EDIT,7,17,173,67,ES_MULTILINE | 
+                    ES_AUTOHSCROLL | WS_VSCROLL
+    LTEXT           "Enter you registration code below, please",IDC_STATIC1,
+                    7,7,158,8
+END
+
+IDD_TRIAL_DIALOG DIALOGEX 0, 0, 186, 95
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION
+CAPTION "Hide It!"
+FONT 8, "Verdana", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Exit",IDCANCEL,7,74,50,14
+    PUSHBUTTON      "Buy Now !",IDC_BUYNOW,67,74,50,14,0,0,HIDC_BUYNOW
+    PUSHBUTTON      "Registration",IDC_REG_BUTTON,129,74,50,14,0,0,
+                    HIDC_REG_BUTTON
+    LTEXT           "Trial expired !",IDC_STATIC,66,25,47,8
+    LTEXT           "",IDC_STATIC,7,66,172,2,SS_SUNKEN | NOT WS_GROUP
+END
+
+IDD_PPAGEHIDE DIALOGEX 0, 0, 307, 149
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Hide parameters"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CONTROL         "&Hide window when minimized",IDC_HIDE_MINIMIZE,"Button",
+                    BS_AUTOCHECKBOX | WS_GROUP | WS_TABSTOP,7,7,203,8,0,
+                    HIDC_HIDE_MINIMIZE
+    CONTROL         "Hide window by clicking minimization button with right &mouse button ",
+                    IDC_MOUSEHIDE,"Button",BS_AUTOCHECKBOX | WS_GROUP | 
+                    WS_TABSTOP,7,21,230,8,0,HIDC_MOUSEHIDE
+    CONTROL         "Hide window by double clicking window caption with right &mouse button ",
+                    IDC_MOUSEHIDEDBL,"Button",BS_AUTOCHECKBOX | WS_GROUP | 
+                    WS_TABSTOP,7,35,259,8,0,HIDC_MOUSEHIDEDBL
+    CONTROL         "Show popup menu by clicking maximization (or close) button with right mouse button ",
+                    IDC_WNDMENU,"Button",BS_AUTOCHECKBOX | WS_GROUP | 
+                    WS_TABSTOP,7,49,287,8,0,HIDC_WNDMENU
+    GROUPBOX        "Hide method",IDC_STATIC,7,63,137,49,WS_GROUP
+    CONTROL         "Hide only one window",IDC_RADIOHIDEMETHOD,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP | WS_TABSTOP,14,76,85,10,0,
+                    HIDC_RADIOHIDEMETHOD
+    CONTROL         "Hide all dependent windows",IDC_RADIOHIDEMETHOD2,"Button",
+                    BS_AUTORADIOBUTTON | WS_TABSTOP,14,87,105,10,0,
+                    HIDC_RADIOHIDEMETHOD2
+    CONTROL         "Hide all application's windows ",IDC_RADIOHIDEMETHOD3,
+                    "Button",BS_AUTORADIOBUTTON | WS_TABSTOP,14,98,118,10,0,
+                    HIDC_RADIOHIDEMETHOD3
+    GROUPBOX        "Hide to: ",IDC_STATIC,150,63,151,63,WS_GROUP
+    CONTROL         "Common list of windows (Window menu)",IDC_RADIOHIDETO,
+                    "Button",BS_AUTORADIOBUTTON | WS_GROUP | WS_TABSTOP,158,
+                    76,142,10,0,HIDC_RADIOHIDETO
+    CONTROL         "Common list of windows and Tray Bar",
+                    IDC_RADIOHIDETO_MENUTRAY,"Button",BS_AUTORADIOBUTTON | 
+                    WS_TABSTOP,158,87,133,10,0,HIDC_RADIOHIDETO_MENUTRAY
+    CONTROL         "Secured private list of windows",
+                    IDC_RADIOHIDETO_PRIVATEMENU,"Button",BS_AUTORADIOBUTTON | 
+                    WS_TABSTOP,158,98,113,10,0,HIDC_RADIOHIDETO_PRIVATEMENU
+    CONTROL         "Private list of windows",
+                    IDC_RADIOHIDETO_PRIVATEMENUCOMMON,"Button",
+                    BS_AUTORADIOBUTTON | WS_TABSTOP,158,109,85,10,0,
+                    HIDC_RADIOHIDETO_PRIVATEMENUCOMMON
+    CONTROL         "Show window by system request ",IDC_SHOWAPP,"Button",
+                    BS_AUTOCHECKBOX | WS_GROUP | WS_TABSTOP,7,119,140,8,0,
+                    HIDC_SHOWAPP
+    CONTROL         "Activate next window after hiding",IDC_ACTIVATENEXT,
+                    "Button",BS_AUTOCHECKBOX | WS_GROUP | WS_TABSTOP,7,132,
+                    140,8,0,HIDC_ACTIVATENEXT
+END
+
+IDD_PPAGEHOTKEYS DIALOGEX 0, 0, 265, 142
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Hotkeys"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    LTEXT           "Actions list...",IDC_STATIC,7,7,70,8
+    LTEXT           "Hotkeys list...",IDC_STATIC,189,7,70,8
+    LISTBOX         IDC_ACTIONLIST,7,21,182,84,LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP,0,HIDC_ACTIONLIST
+    LISTBOX         IDC_ACTIONLISTHK,189,21,70,84,LBS_NOINTEGRALHEIGHT | 
+                    WS_DISABLED | WS_VSCROLL | WS_TABSTOP,0,
+                    HIDC_ACTIONLISTHK
+    LTEXT           "&Hotkey: ",IDC_STATIC,154,123,26,8
+    CONTROL         "HotKey1",IDC_HOTKEYMAIN,"msctls_hotkey32",WS_BORDER | 
+                    WS_TABSTOP,182,119,77,14,0,HIDC_HOTKEYMAIN
+END
+
+IDD_PPAGEPASSWORDS DIALOGEX 0, 0, 300, 106
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Password protection"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    GROUPBOX        "Master password ",IDC_MASTERBOX,7,7,147,56
+    LTEXT           "&New password",IDC_STATIC,14,21,48,8
+    EDITTEXT        IDC_MASTERPWD,91,21,56,12,ES_PASSWORD | ES_WANTRETURN,0,
+                    HIDC_MASTERPWD
+    LTEXT           "&Confirm new password",IDC_STATIC,14,35,72,8
+    EDITTEXT        IDC_MASTERPWDCONFIRM,91,35,56,12,ES_PASSWORD | 
+                    ES_WANTRETURN,0,HIDC_MASTERPWDCONFIRM
+    GROUPBOX        "Use for ",IDC_GROUPBOX,161,7,133,91
+    CONTROL         "E&xit from program",IDC_PWDUSEEXIT,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,170,18,105,10,0,
+                    HIDC_PWDUSEEXIT
+    CONTROL         "Show &settings",IDC_PWDUSESETTINGS,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,170,31,105,10,0,
+                    HIDC_PWDUSESETTINGS
+    CONTROL         "Show w&indows settings",IDC_PWDUSEWNDSETTINGS,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,170,42,117,10,0,
+                    HIDC_PWDUSEWNDSETTINGS
+    CONTROL         "Show window &menu",IDC_PWDUSESHOWMENU,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,170,55,105,10,0,
+                    HIDC_PWDUSESHOWMENU
+    CONTROL         "Show private window &list",IDC_PWDUSESHOWPRIVATEMENU,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,170,66,118,10,0,
+                    HIDC_PWDUSESHOWPRIVATEMENU
+    CONTROL         "Show &window",IDC_PWDUSESHOWWINDOW,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,170,79,105,10,0,
+                    HIDC_PWDUSESHOWWINDOW
+END
+
+IDD_PASSWORDDIALOG DIALOGEX 0, 0, 153, 58
+STYLE DS_SYSMODAL | DS_MODALFRAME | WS_POPUP | WS_CAPTION
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Password protected"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    LTEXT           "Password",-1,14,14,32,8
+    EDITTEXT        IDC_MASTERPWD,56,14,56,12,ES_PASSWORD | ES_WANTRETURN,0,
+                    HIDC_MASTERPWD
+    DEFPUSHBUTTON   "OK",IDOK,7,35,50,14,WS_GROUP | NOT WS_TABSTOP
+    PUSHBUTTON      "Cancel",IDCANCEL,91,35,50,14
+END
+
+IDD_WNDPARMLIST DIALOGEX 0, 0, 377, 177
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Windows list"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CONTROL         "List1",IDC_WNDLIST,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHAREIMAGELISTS | WS_BORDER | 
+                    WS_TABSTOP,7,7,308,161
+    PUSHBUTTON      "Edit",IDC_WNDLSTEDIT,322,7,50,14
+    PUSHBUTTON      "Delete",IDC_WNDLSTDELETE,322,28,50,14,0,0,
+                    HIDC_WNDLSTDELETE
+    DEFPUSHBUTTON   "OK",IDOK,322,112,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,322,133,50,14
+    PUSHBUTTON      "Help",ID_HELP,322,154,50,14
+END
+
+IDD_PPAGEWNDMAIN DIALOGEX 0, 0, 279, 114
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Main"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    LTEXT           "Window name substring",IDC_STATIC,7,7,76,8
+    EDITTEXT        IDC_WNDNAME,91,7,182,12,ES_AUTOHSCROLL,0,HIDC_WNDNAME
+    LTEXT           "Executable file name",IDC_STATIC,7,28,66,8
+    EDITTEXT        IDC_EXENAME,91,28,182,12,ES_AUTOHSCROLL | ES_READONLY,0,
+                    HIDC_EXENAME
+    PUSHBUTTON      "Clear",IDC_CLEAREXEBUTTON,161,49,50,14,0,0,
+                    HIDC_CLEAREXEBUTTON
+    PUSHBUTTON      "Find...",IDC_FINDBUTTON,224,49,50,14,0,0,
+                    HIDC_FINDBUTTON
+    GROUPBOX        "Associated icon",IDC_STATIC,7,49,119,56
+    ICON            IDR_MAINFRAME,IDC_WNDICON,14,63,21,20,SS_REALSIZEIMAGE,0,
+                    HIDC_WNDICON
+    PUSHBUTTON      "Restore",IDC_RESTOREBUTTON,63,63,50,14,0,0,
+                    HIDC_RESTOREBUTTON
+    PUSHBUTTON      "Clear",IDC_CLEARBUTTON,63,84,50,14,0,0,HIDC_CLEARBUTTON
+END
+
+IDD_WNDPPAGEHIDE DIALOGEX 0, 0, 314, 151
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Hide parameters"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CONTROL         "&Hide window when minimized",IDC_HIDE_MINIMIZE,"Button",
+                    BS_AUTOCHECKBOX | WS_GROUP | WS_TABSTOP,7,7,203,8,0,
+                    HIDC_HIDE_MINIMIZE
+    CONTROL         "Hide window when &activated",IDC_HIDE_CREATE,"Button",
+                    BS_AUTOCHECKBOX | WS_GROUP | WS_TABSTOP,7,21,203,8,0,
+                    HIDC_HIDE_CREATE
+    CONTROL         "Hide window by clicking minimization button with right &mouse button ",
+                    IDC_MOUSEHIDE,"Button",BS_AUTOCHECKBOX | WS_GROUP | 
+                    WS_TABSTOP,7,35,230,8,0,HIDC_MOUSEHIDE
+    CONTROL         "Hide window by double clicking window caption with right &mouse button ",
+                    IDC_MOUSEHIDEDBL,"Button",BS_AUTOCHECKBOX | WS_GROUP | 
+                    WS_TABSTOP,7,49,259,8,0,HIDC_MOUSEHIDEDBL
+    GROUPBOX        "Hide method",IDC_STATIC,7,62,131,49,WS_GROUP
+    CONTROL         "Hide only one window",IDC_RADIOHIDEMETHOD,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP | WS_TABSTOP,14,76,85,10,0,
+                    HIDC_RADIOHIDEMETHOD
+    CONTROL         "Hide all dependent windows",IDC_RADIOHIDEMETHOD2,"Button",
+                    BS_AUTORADIOBUTTON | WS_TABSTOP,14,86,105,10,0,
+                    HIDC_RADIOHIDEMETHOD2
+    CONTROL         "Hide all application's windows ",IDC_RADIOHIDEMETHOD3,
+                    "Button",BS_AUTORADIOBUTTON | WS_TABSTOP,14,96,111,10,0,
+                    HIDC_RADIOHIDEMETHOD3
+    GROUPBOX        "Hide to: ",IDC_STATIC,144,62,164,64,WS_GROUP
+    CONTROL         "Common list of windows (Window menu)",IDC_RADIOHIDETO,
+                    "Button",BS_AUTORADIOBUTTON | WS_GROUP | WS_TABSTOP,152,
+                    75,142,10,0,HIDC_RADIOHIDETO
+    CONTROL         "Common list of windows and Tray Bar",
+                    IDC_RADIOHIDETO_MENUTRAY,"Button",BS_AUTORADIOBUTTON | 
+                    WS_TABSTOP,152,86,133,10,0,HIDC_RADIOHIDETO_MENUTRAY
+    CONTROL         "Secured private list of windows",
+                    IDC_RADIOHIDETO_PRIVATEMENU,"Button",BS_AUTORADIOBUTTON | 
+                    WS_TABSTOP,152,97,113,10,0,HIDC_RADIOHIDETO_PRIVATEMENU
+    CONTROL         "Private list of windows",
+                    IDC_RADIOHIDETO_PRIVATEMENUCOMMON,"Button",
+                    BS_AUTORADIOBUTTON | WS_TABSTOP,152,109,85,10,0,
+                    HIDC_RADIOHIDETO_PRIVATEMENUCOMMON
+    CONTROL         "Show window by system request ",IDC_SHOWAPP,"Button",
+                    BS_AUTOCHECKBOX | WS_GROUP | WS_TABSTOP,7,118,131,8,0,
+                    HIDC_SHOWAPP
+    CONTROL         "Activate next window after hiding",IDC_ACTIVATENEXT,
+                    "Button",BS_AUTOCHECKBOX | WS_GROUP | WS_TABSTOP,7,132,
+                    140,8,0,HIDC_ACTIVATENEXT
+END
+
+IDD_WNDPPAGEPASSWORDS DIALOGEX 0, 0, 188, 58
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Password protection"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    LTEXT           "&New password",IDC_STATIC,14,14,48,8
+    EDITTEXT        IDC_MASTERPWD,91,14,56,12,ES_PASSWORD | ES_WANTRETURN,0,
+                    HIDC_MASTERPWD
+    LTEXT           "&Confirm new password",IDC_STATIC,14,28,72,8
+    EDITTEXT        IDC_MASTERPWDCONFIRM,91,28,56,12,ES_PASSWORD | 
+                    ES_WANTRETURN,0,HIDC_MASTERPWDCONFIRM
+    GROUPBOX        "",IDC_STATIC,7,0,168,49
+END
+
+IDD_WNDPPAGEPERFOMANCE DIALOGEX 0, 0, 265, 71
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Performance"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CONTROL         "Change process priority ",IDC_CHANGEPRIORITY,"Button",
+                    BS_AUTOCHECKBOX | WS_GROUP | WS_TABSTOP,7,7,196,8,0,
+                    HIDC_CHANGEPRIORITY
+    GROUPBOX        "Set to: ",IDC_PRIORITYGROUP,7,21,245,42
+    CONTROL         "High priority",IDC_PROCESSPRIORITY,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP | WS_TABSTOP,21,32,53,10,0,
+                    HIDC_PROCESSPRIORITY
+    CONTROL         "Normal priority",IDC_PRIORITY_NORMAL,"Button",
+                    BS_AUTORADIOBUTTON | WS_TABSTOP,91,32,60,10,0,
+                    HIDC_PRIORITY_NORMAL
+    CONTROL         "Low priority",IDC_PRIORITY_LOW,"Button",
+                    BS_AUTORADIOBUTTON | WS_TABSTOP,168,32,51,10,0,
+                    HIDC_PRIORITY_LOW
+    CONTROL         "Don't use when window is application of the Program Manager ",
+                    IDC_CHANGEPRIORITYPM,"Button",BS_AUTOCHECKBOX | WS_GROUP | 
+                    WS_TABSTOP,21,49,210,8,0,HIDC_CHANGEPRIORITYPM
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 3,1,0,0
+ PRODUCTVERSION 3,1,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "Rokela Software\0"
+            VALUE "FileDescription", "Hide It!\0"
+            VALUE "FileVersion", "3, 1, 0, 0\0"
+            VALUE "InternalName", "Hide It!\0"
+            VALUE "LegalCopyright", "Copyright (C) 2002-2003 Rokela Software\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "Hide.EXE\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "Hide It!\0"
+            VALUE "ProductVersion", "3, 1, 0, 0\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_SPLASHWINDOW, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 155
+        TOPMARGIN, 4
+        BOTTOMMARGIN, 24
+    END
+
+    IDD_PPAGEPERFOMANCE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 258
+        VERTGUIDE, 7
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 149
+    END
+
+    IDD_PPAGECOMMON, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 89
+    END
+
+    IDD_PPAGEAPPMENU, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 250
+        VERTGUIDE, 7
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 72
+        HORZGUIDE, 7
+    END
+
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 235
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 86
+    END
+
+    IDD_REG_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 104
+    END
+
+    IDD_TRIAL_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 88
+    END
+
+    IDD_PPAGEHIDE, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 145
+    END
+
+    IDD_PPAGEHOTKEYS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 258
+        VERTGUIDE, 7
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 135
+    END
+
+    IDD_PPAGEPASSWORDS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 293
+        VERTGUIDE, 7
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 99
+        HORZGUIDE, 7
+    END
+
+    IDD_PASSWORDDIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 146
+        VERTGUIDE, 7
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 51
+        HORZGUIDE, 7
+    END
+
+    IDD_WNDPARMLIST, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 370
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 170
+    END
+
+    IDD_PPAGEWNDMAIN, DIALOG
+    BEGIN
+        RIGHTMARGIN, 272
+        BOTTOMMARGIN, 110
+    END
+
+    IDD_WNDPPAGEHIDE, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 147
+    END
+
+    IDD_WNDPPAGEPASSWORDS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 181
+        VERTGUIDE, 7
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 51
+        HORZGUIDE, 7
+    END
+
+    IDD_WNDPPAGEPERFOMANCE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 258
+        VERTGUIDE, 7
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 64
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_MENU_TITLE          BITMAP  DISCARDABLE     "res\\MenuBar.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_CURSORHARROW        CURSOR  DISCARDABLE     "res\\harrow.cur"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDR_MAINFRAME           "Hide"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "Hide It!"
+    AFX_IDS_IDLEMESSAGE     "For Help, press F1"
+    AFX_IDS_HELPMODEMESSAGE "Select an object on which to get Help"
+    IDS_APPMENUHIDEALL      "Hide All Windows"
+    IDS_APPMENUSHOWALL      "Show All Windows"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_APP_ABOUT            "Display program information, version number and copyright\nAbout"
+    ID_APP_EXIT             "Quit the application; prompts to save documents\nExit"
+    ID_HELP_INDEX           "Opens Help\nHelp Topics"
+    ID_HELP_FINDER          "List Help topics\nHelp Topics"
+    ID_HELP_USING           "Display instructions about how to use help\nHelp"
+    ID_CONTEXT_HELP         "Display help for clicked on buttons, menus and windows\nHelp"
+    ID_HELP                 "Display help for current task or command\nHelp"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_NEXT_PANE            "Switch to the next window pane\nNext Pane"
+    ID_PREV_PANE            "Switch back to the previous window pane\nPrevious Pane"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_WINDOW_SPLIT         "Split the active window into panes\nSplit"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_CLEAR           "Erase the selection\nErase"
+    ID_EDIT_CLEAR_ALL       "Erase everything\nErase All"
+    ID_EDIT_COPY            "Copy the selection and put it on the Clipboard\nCopy"
+    ID_EDIT_CUT             "Cut the selection and put it on the Clipboard\nCut"
+    ID_EDIT_FIND            "Find the specified text\nFind"
+    ID_EDIT_PASTE           "Insert Clipboard contents\nPaste"
+    ID_EDIT_REPEAT          "Repeat the last action\nRepeat"
+    ID_EDIT_REPLACE         "Replace specific text with different text\nReplace"
+    ID_EDIT_SELECT_ALL      "Select the entire document\nSelect All"
+    ID_EDIT_UNDO            "Undo the last action\nUndo"
+    ID_EDIT_REDO            "Redo the previously undone action\nRedo"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "Change the window size"
+    AFX_IDS_SCMOVE          "Change the window position"
+    AFX_IDS_SCMINIMIZE      "Reduce the window to an icon"
+    AFX_IDS_SCMAXIMIZE      "Enlarge the window to full size"
+    AFX_IDS_SCNEXTWINDOW    "Switch to the next document window"
+    AFX_IDS_SCPREVWINDOW    "Switch to the previous document window"
+    AFX_IDS_SCCLOSE         "Close the active window and prompts to save the documents"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "Restore the window to normal size"
+    AFX_IDS_SCTASKLIST      "Activate Task List"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\Hide.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

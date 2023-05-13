@@ -1,0 +1,279 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: WHook - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x419 /fo"Release/WHook.res" /d "NDEBUG" "C:\Vcc\Hide\4.0\WHook\WHook.rc"" 
+Creating temporary file "C:\Users\Alex\AppData\Local\Temp\RSPCE21.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /Op /D "NDEBUG" /D "_USRDLL" /D "WHook_EXPORTS" /D WINVER=0x0500 /D "WIN32" /D "_WINDOWS" /D "_MBCS" /Fp"Release/WHook.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Vcc\Hide\4.0\WHook\IPC.cpp"
+"C:\Vcc\Hide\4.0\WHook\WHook.cpp"
+]
+Creating command line "cl.exe @C:\Users\Alex\AppData\Local\Temp\RSPCE21.tmp" 
+Creating temporary file "C:\Users\Alex\AppData\Local\Temp\RSPCE22.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib comctl32.lib /nologo /dll /incremental:no /pdb:"Release/whook.pdb" /machine:I386 /def:".\WHook.def" /out:"../Release/whook.dll" /implib:"../release/WHook.lib" 
+.\Release\IPC.obj
+.\Release\WHook.obj
+.\Release\WHook.res
+]
+Creating command line "link.exe @C:\Users\Alex\AppData\Local\Temp\RSPCE22.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+IPC.cpp
+
+NOTE: WINVER has been defined as 0x0500 or greater which enables
+Windows NT 5.0 and Windows 98 features. When these headers were released,
+Windows NT 5.0 beta 1 and Windows 98 beta 2.1 were the current versions.
+
+For this release when WINVER is defined as 0x0500 or greater, you can only
+build beta or test applications.  To build a retail application,
+set WINVER to 0x0400 or visit http://www.microsoft.com/msdn/sdk
+to see if retail Windows NT 5.0 or Windows 98 headers are available.
+
+See the SDK release notes for more information.
+
+WHook.cpp
+
+NOTE: WINVER has been defined as 0x0500 or greater which enables
+Windows NT 5.0 and Windows 98 features. When these headers were released,
+Windows NT 5.0 beta 1 and Windows 98 beta 2.1 were the current versions.
+
+For this release when WINVER is defined as 0x0500 or greater, you can only
+build beta or test applications.  To build a retail application,
+set WINVER to 0x0400 or visit http://www.microsoft.com/msdn/sdk
+to see if retail Windows NT 5.0 or Windows 98 headers are available.
+
+See the SDK release notes for more information.
+
+Linking...
+   Creating library ../release/WHook.lib and object ../release/WHook.exp
+<h3>
+--------------------Configuration: Hide - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\Alex\AppData\Local\Temp\RSPCFB9.bat" with contents
+[
+@echo off
+copy "hlp\Hide.cnt" .\Release
+]
+Creating command line "C:\Users\Alex\AppData\Local\Temp\RSPCFB9.bat"
+Creating temporary file "C:\Users\Alex\AppData\Local\Temp\RSPCFBA.bat" with contents
+[
+@echo off
+echo. >"hlp\Hide.hm"
+echo // Commands (ID_* and IDM_*) >>"hlp\Hide.hm"
+makehm ID_,HID_,0x10000 IDM_,HIDM_,0x10000 resource.h >>"hlp\Hide.hm"
+echo. >>"hlp\Hide.hm"
+echo // Prompts (IDP_*) >>"hlp\Hide.hm"
+makehm IDP_,HIDP_,0x30000 resource.h >>"hlp\Hide.hm"
+echo. >>"hlp\Hide.hm"
+echo // Resources (IDR_*) >>"hlp\Hide.hm"
+makehm IDR_,HIDR_,0x20000 resource.h >>"hlp\Hide.hm"
+echo. >>"hlp\Hide.hm"
+echo // Dialogs (IDD_*) >>"hlp\Hide.hm"
+makehm IDD_,HIDD_,0x20000 resource.h >>"hlp\Hide.hm"
+echo. >>"hlp\Hide.hm"
+echo // Frame Controls (IDW_*) >>"hlp\Hide.hm"
+makehm IDW_,HIDW_,0x50000 resource.h >>"hlp\Hide.hm"
+]
+Creating command line "C:\Users\Alex\AppData\Local\Temp\RSPCFBA.bat"
+Creating temporary file "C:\Users\Alex\AppData\Local\Temp\RSPCFBB.bat" with contents
+[
+@echo off
+start /wait hcw /C /E /M "hlp\Hide.hpj"
+if errorlevel 1 goto :Error
+if not exist "hlp\Hide.hlp" goto :Error
+copy "hlp\Hide.hlp" .\Release
+goto :done
+:Error
+echo hlp\Hide.hpj(1) : error:
+type "hlp\Hide.log"
+:done
+]
+Creating command line "C:\Users\Alex\AppData\Local\Temp\RSPCFBB.bat"
+Creating command line "rc.exe /l 0x419 /fo"Release/Hide.res" /d "NDEBUG" "C:\Vcc\Hide\4.0\Hide.rc"" 
+Copying contents file...
+Скопировано файлов:         1.
+Making help include file...
+Making help file...
+Скопировано файлов:         1.
+Creating temporary file "C:\Users\Alex\AppData\Local\Temp\RSPD24B.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "NDEBUG" /D WINVER=0x0501 /D "WIN32" /D "_WINDOWS" /D "_MBCS" /FR"Release/" /Fp"Release/Hide.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Vcc\Hide\4.0\AboutBox.cpp"
+"C:\Vcc\Hide\4.0\ChildView.cpp"
+"C:\Vcc\Hide\4.0\debug.cpp"
+"C:\Vcc\Hide\4.0\EnumWinModules.cpp"
+"C:\Vcc\Hide\4.0\EnumWnd.cpp"
+"C:\Vcc\Hide\4.0\EZMenu.cpp"
+"C:\Vcc\Hide\4.0\Hide.cpp"
+"C:\Vcc\Hide\4.0\HyperLink.cpp"
+"C:\Vcc\Hide\4.0\InfoStore.cpp"
+"C:\Vcc\Hide\4.0\MainFrm.cpp"
+"C:\Vcc\Hide\4.0\OSInfo.cpp"
+"C:\Vcc\Hide\4.0\PasswordDialog.cpp"
+"C:\Vcc\Hide\4.0\PPageAppMenu.cpp"
+"C:\Vcc\Hide\4.0\PPageCommon.cpp"
+"C:\Vcc\Hide\4.0\PPageHide.cpp"
+"C:\Vcc\Hide\4.0\PPageHotKeys.cpp"
+"C:\Vcc\Hide\4.0\PPagePasswords.cpp"
+"C:\Vcc\Hide\4.0\PPagePerfomance.cpp"
+"C:\Vcc\Hide\4.0\PPageWndMain.cpp"
+"C:\Vcc\Hide\4.0\RegDialog.cpp"
+"C:\Vcc\Hide\4.0\SplashWindow.cpp"
+"C:\Vcc\Hide\4.0\SystemTray.cpp"
+"C:\Vcc\Hide\4.0\TrialDialog.cpp"
+"C:\Vcc\Hide\4.0\WndDescr.cpp"
+"C:\Vcc\Hide\4.0\WndParmList.cpp"
+"C:\Vcc\Hide\4.0\WNDPPageHide.cpp"
+"C:\Vcc\Hide\4.0\WNDPPagePasswords.cpp"
+"C:\Vcc\Hide\4.0\WNDPPagePerfomance.cpp"
+"C:\Vcc\Hide\4.0\WndStore.cpp"
+]
+Creating command line "cl.exe @C:\Users\Alex\AppData\Local\Temp\RSPD24B.tmp" 
+Creating temporary file "C:\Users\Alex\AppData\Local\Temp\RSPD24C.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "NDEBUG" /D WINVER=0x0501 /D "WIN32" /D "_WINDOWS" /D "_MBCS" /FR"Release/" /Fp"Release/Hide.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Vcc\Hide\4.0\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\Alex\AppData\Local\Temp\RSPD24C.tmp" 
+Creating temporary file "C:\Users\Alex\AppData\Local\Temp\RSPD24D.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/Hide.pdb" /machine:I386 /out:"Release/Hide.exe" 
+.\Release\AboutBox.obj
+.\Release\ChildView.obj
+.\Release\debug.obj
+.\Release\EnumWinModules.obj
+.\Release\EnumWnd.obj
+.\Release\EZMenu.obj
+.\Release\Hide.obj
+.\Release\HyperLink.obj
+.\Release\InfoStore.obj
+.\Release\MainFrm.obj
+.\Release\OSInfo.obj
+.\Release\PasswordDialog.obj
+.\Release\PPageAppMenu.obj
+.\Release\PPageCommon.obj
+.\Release\PPageHide.obj
+.\Release\PPageHotKeys.obj
+.\Release\PPagePasswords.obj
+.\Release\PPagePerfomance.obj
+.\Release\PPageWndMain.obj
+.\Release\RegDialog.obj
+.\Release\SplashWindow.obj
+.\Release\StdAfx.obj
+.\Release\SystemTray.obj
+.\Release\TrialDialog.obj
+.\Release\WndDescr.obj
+.\Release\WndParmList.obj
+.\Release\WNDPPageHide.obj
+.\Release\WNDPPagePasswords.obj
+.\Release\WNDPPagePerfomance.obj
+.\Release\WndStore.obj
+.\Release\Hide.res
+.\release\WHook.lib
+]
+Creating command line "link.exe @C:\Users\Alex\AppData\Local\Temp\RSPD24D.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+
+NOTE: WINVER has been defined as 0x0500 or greater which enables
+Windows NT 5.0 and Windows 98 features. When these headers were released,
+Windows NT 5.0 beta 1 and Windows 98 beta 2.1 were the current versions.
+
+For this release when WINVER is defined as 0x0500 or greater, you can only
+build beta or test applications.  To build a retail application,
+set WINVER to 0x0400 or visit http://www.microsoft.com/msdn/sdk
+to see if retail Windows NT 5.0 or Windows 98 headers are available.
+
+See the SDK release notes for more information.
+
+Compiling...
+AboutBox.cpp
+ChildView.cpp
+debug.cpp
+EnumWinModules.cpp
+EnumWnd.cpp
+EZMenu.cpp
+Hide.cpp
+HyperLink.cpp
+InfoStore.cpp
+MainFrm.cpp
+OSInfo.cpp
+PasswordDialog.cpp
+PPageAppMenu.cpp
+PPageCommon.cpp
+PPageHide.cpp
+PPageHotKeys.cpp
+PPagePasswords.cpp
+PPagePerfomance.cpp
+PPageWndMain.cpp
+RegDialog.cpp
+Generating Code...
+Compiling...
+SplashWindow.cpp
+SystemTray.cpp
+TrialDialog.cpp
+WndDescr.cpp
+WndParmList.cpp
+WNDPPageHide.cpp
+WNDPPagePasswords.cpp
+WNDPPagePerfomance.cpp
+WndStore.cpp
+Generating Code...
+Linking...
+   Creating library Release/Hide.lib and object Release/Hide.exp
+LINK : warning LNK4089: all references to "OLEAUT32.dll" discarded by /OPT:REF
+LINK : warning LNK4089: all references to "ole32.dll" discarded by /OPT:REF
+Creating temporary file "C:\Users\Alex\AppData\Local\Temp\RSPD7E9.tmp" with contents
+[
+/nologo /o"Release/Hide.bsc" 
+.\Release\StdAfx.sbr
+.\Release\AboutBox.sbr
+.\Release\ChildView.sbr
+.\Release\debug.sbr
+.\Release\EnumWinModules.sbr
+.\Release\EnumWnd.sbr
+.\Release\EZMenu.sbr
+.\Release\Hide.sbr
+.\Release\HyperLink.sbr
+.\Release\InfoStore.sbr
+.\Release\MainFrm.sbr
+.\Release\OSInfo.sbr
+.\Release\PasswordDialog.sbr
+.\Release\PPageAppMenu.sbr
+.\Release\PPageCommon.sbr
+.\Release\PPageHide.sbr
+.\Release\PPageHotKeys.sbr
+.\Release\PPagePasswords.sbr
+.\Release\PPagePerfomance.sbr
+.\Release\PPageWndMain.sbr
+.\Release\RegDialog.sbr
+.\Release\SplashWindow.sbr
+.\Release\SystemTray.sbr
+.\Release\TrialDialog.sbr
+.\Release\WndDescr.sbr
+.\Release\WndParmList.sbr
+.\Release\WNDPPageHide.sbr
+.\Release\WNDPPagePasswords.sbr
+.\Release\WNDPPagePerfomance.sbr
+.\Release\WndStore.sbr]
+Creating command line "bscmake.exe @C:\Users\Alex\AppData\Local\Temp\RSPD7E9.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+Hide.exe - 0 error(s), 2 warning(s)
+</pre>
+</body>
+</html>
