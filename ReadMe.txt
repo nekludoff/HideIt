@@ -1,103 +1,21 @@
-========================================================================
-       MICROSOFT FOUNDATION CLASS LIBRARY : Hide
-========================================================================
+     Hide It!
+               "Put in order" your Desktop!
+               Copyright (c) by Alexey Nekludoff, 2002 - 2023
 
 
-AppWizard has created this Hide application for you.  This application
-not only demonstrates the basics of using the Microsoft Foundation classes
-but is also a starting point for writing your application.
+Hide It! is a program giving you a possibility to "put in order" your 
+Desktop by hiding all applications not currently used and windows from 
+the desktop and task bar. An access to the hidden applications 
+is available through Application Menu of the program Hide It! 
+Main advantage of Hide It! is the presence of "memory optimizer" 
+(available only for the users of NT-based systems). 
+With this, programs not currently in use give maximum 
+freedom to physical memory (RAM), unloading their data into 
+virtual memory which influences in a positive way operating 
+speed of other applications.
 
-This file contains a summary of what you will find in each of the files that
-make up your Hide application.
-
-Hide.dsp
-    This file (the project file) contains information at the project level and
-    is used to build a single project or subproject. Other users can share the
-    project (.dsp) file, but they should export the makefiles locally.
-
-Hide.h
-    This is the main header file for the application.  It includes other
-    project specific headers (including Resource.h) and declares the
-    CHideApp application class.
-
-Hide.cpp
-    This is the main application source file that contains the application
-    class CHideApp.
-
-Hide.rc
-    This is a listing of all of the Microsoft Windows resources that the
-    program uses.  It includes the icons, bitmaps, and cursors that are stored
-    in the RES subdirectory.  This file can be directly edited in Microsoft
-	Visual C++.
-
-Hide.clw
-    This file contains information used by ClassWizard to edit existing
-    classes or add new classes.  ClassWizard also uses this file to store
-    information needed to create and edit message maps and dialog data
-    maps and to create prototype member functions.
-
-res\Hide.ico
-    This is an icon file, which is used as the application's icon.  This
-    icon is included by the main resource file Hide.rc.
-
-res\Hide.rc2
-    This file contains resources that are not edited by Microsoft 
-	Visual C++.  You should place all resources not editable by
-	the resource editor in this file.
-
-
-
-/////////////////////////////////////////////////////////////////////////////
-
-For the main frame window:
-
-MainFrm.h, MainFrm.cpp
-    These files contain the frame class CMainFrame, which is derived from
-    CFrameWnd and controls all SDI frame features.
-
-/////////////////////////////////////////////////////////////////////////////
-
-
-/////////////////////////////////////////////////////////////////////////////
-
-Help Support:
-
-hlp\Hide.hpj
-    This file is the Help Project file used by the Help compiler to create
-    your application's Help file.
-
-hlp\*.bmp
-    These are bitmap files required by the standard Help file topics for
-    Microsoft Foundation Class Library standard commands.
-
-hlp\*.rtf
-    This file contains the standard help topics for standard MFC
-    commands and screen objects.
-
-/////////////////////////////////////////////////////////////////////////////
-Other standard files:
-
-StdAfx.h, StdAfx.cpp
-    These files are used to build a precompiled header (PCH) file
-    named Hide.pch and a precompiled types file named StdAfx.obj.
-
-Resource.h
-    This is the standard header file, which defines new resource IDs.
-    Microsoft Visual C++ reads and updates this file.
-
-/////////////////////////////////////////////////////////////////////////////
-Other notes:
-
-AppWizard uses "TODO:" to indicate parts of the source code you
-should add to or customize.
-
-If your application uses MFC in a shared DLL, and your application is 
-in a language other than the operating system's current language, you
-will need to copy the corresponding localized resources MFC42XXX.DLL
-from the Microsoft Visual C++ CD-ROM onto the system or system32 directory,
-and rename it to be MFCLOC.DLL.  ("XXX" stands for the language abbreviation.
-For example, MFC42DEU.DLL contains resources translated to German.)  If you
-don't do this, some of the UI elements of your application will remain in the
-language of the operating system.
-
-/////////////////////////////////////////////////////////////////////////////
+Thank you for your interest.
+--------------------------------------------
+	Hide It! team
+	support@kamtre.ru
+	www.kamtre.ru
