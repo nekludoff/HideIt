@@ -1,7 +1,6 @@
-     Hide It!
+                          Hide It!
                "Put in order" your Desktop!
-               Copyright (c) by Alexey Nekludoff, 2002 - 2023
-
+               Copyright (c) AN, 2002-2023
 
 Hide It! is a program giving you a possibility to "put in order" your 
 Desktop by hiding all applications not currently used and windows from 
@@ -15,7 +14,3 @@ virtual memory which influences in a positive way operating
 speed of other applications.
 
 Thank you for your interest.
---------------------------------------------
-	Hide It! team
-	support@kamtre.ru
-	www.kamtre.ru
